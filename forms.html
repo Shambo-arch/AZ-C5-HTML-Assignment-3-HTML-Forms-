@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Assignments, learning, frontend, data analysis, cloud engineering">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Assignment // form">
+    <meta name="author" content="Louis Marie SHAMBO">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, nofollow">
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="./Images/pointed-star.png">
+    <title>Forms Assignment</title>
+   
+</head>
+<body>
+    <form action="/submit" method="get">
+         <label for="name">Name:</label>
+         <input type="text" id="name"  placeholder=""  name="username" required><br>
+         
+         <label for="email">Email:</label>
+         <input type="email" id="email"  placeholder=""  name="email" required><br>
+         
+         <label for="age">Age:</label>
+         <input type="number" id="age"  placeholder=""  name="age" required><br>
+         
+         <label for="number">Phone number:</label>
+         <input type="number" id="Phone number" name="number" required><br>
+         
+         <label for="birth-date">Date of birth:</label>
+         <input type="number" id="Phone number" name="number" required><br>
+
+         <label for="country">Country of Residence:</label>
+         <select name="countries" id="countries">
+                <option value="Nigeria">Nigeria</option>
+                <option value="Ghana">Ghana</option>
+                <option value="Kenya">Kenya</option>
+                <option value="Tanzania">Tanzania</option>
+                <option value="Uganda">Uganda</option>
+                <option value="Rwanda">Rwanda</option>
+                <option value="Burundi">Burundi</option>
+                <option value="DRC">DRC</option>
+                <option value="Cameroon">Cameroon</option>
+                <option value="Egypt">Egypt</option>
+                <option value="Zimbabwe">Zimbabwe</option></select>
+       </form>
+
+       <h3>User's Interest</h3>
+       <form>
+        <h4>Gender</h4>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male"><br>
+
+        <label for="Female">Female</label>
+        <input type="radio" id="male" name="gender" value="female"><br>
+
+         <h4>Hoobies</h4>
+
+        <label for="checkbox">Sports:</label>
+        <input type="checkbox" id="Sports" name="Hobby" value="Sports"><br>
+
+        <label for="checkbox">Music</label>
+        <input type="checkbox" id="music" name="Hobby" value="music"><br>
+        
+        <label for="checkbox">Travel</label>
+        <input type="checkbox" id="travel" name="Hobby" value="travel"><br>
+
+        
+        <label for="checkbox">Music</label>
+        <input type="checkbox" id="music" name="Hobby" value="Music"><br>
+
+        <textarea name="message" rows="10" cols="30"></textarea><br>
+        <button type="button" onclick="alert('thank you for submitting!')">Submit</button>
+       </form>
+    </body>
+</html>
